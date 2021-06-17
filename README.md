@@ -9,6 +9,22 @@
 
 ## Instalación
 
+  - composer install
+  - npm install
+  - npm run dev
+  - php artisan serve
 
+### ElasticSearch
 
+   - Descargar instalart ElasticSearch https://www.elastic.co/es/downloads/elasticsearch
+   - Descargar instalar Kibana https://www.elastic.co/guide/en/kibana/current/install.html
+   - En kibana ir a la pestaña DevTools crear el indice articles con el siguiente comando.
+ 
+ ```
+ PUT /articles
+ ```
+### Probar
+
+  - Entra en la url localhost:8000 
+  
 
