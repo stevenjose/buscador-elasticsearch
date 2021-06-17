@@ -23,6 +23,12 @@
  ```
  PUT /articles
  ```
+ 
+### Ultimo paso
+  - En su archivo .env colocar sus credenciales en el apartado de BD 
+  - Correr las migraciones de Laravel **php artisan migrate**
+  - **php artisan migrate --seed**
+   
 ### Probar
 
   - Entra en la url localhost:8000 
