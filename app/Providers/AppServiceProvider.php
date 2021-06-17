@@ -22,7 +22,7 @@ class AppServiceProvider extends ServiceProvider
     public function register()
     {
         $this->app->bind(Client::class, function($app){
-          return ClientBuilder::create()->setHosts(['localhost'])->build();
+          return ClientBuilder::create()->setHosts([config('app.search_host')])->build();
         });
 
         $this->app->bind(ElasticsearchRepository::class, function($app){
