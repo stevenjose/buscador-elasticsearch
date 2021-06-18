@@ -11,3 +11,7 @@ Route::get('/', function () {
 });
 
 Route::get('/search', [SearchController::class,'search']);
+
+Route::get('/debug-sentry', function () {
+    throw new Exception('Mi tercer error en Sentry!');
+});
