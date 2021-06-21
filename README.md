@@ -14,6 +14,14 @@
   - npm run dev
   - php artisan serve
 
+## Instalar SonarQube
+  - https://docs.sonarqube.org/latest/setup/get-started-2-minutes/
+
+## Instalar Sentry
+
+  - Crear usuario login en sentry para usar el codigo DNS https://sentry.io/welcome/
+ 
+
 ### ElasticSearch
 
    - Descargar instalart ElasticSearch https://www.elastic.co/es/downloads/elasticsearch
@@ -32,5 +40,7 @@
 ### Probar
 
   - Entra en la url localhost:8000 
+  - Correr sonar-scanner
+
   
 
